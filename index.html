@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Hong - Art Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Lucas Hong</h1>
+    </header>
+    <main>
+        <section class="video-showcase">
+            <div class="video-container">
+                <a href="https://youtu.be/148NCi8klWQ" target="_blank" class="video-thumbnail">
+                    <img src="https://img.youtube.com/vi/148NCi8klWQ/maxresdefault.jpg" alt="VR ChatGPT Integration Demo">
+                    <div class="play-button">▶</div>
+                </a>
+            </div>
+            <div class="video-description">
+                <h2>Virtual Reality (Oculus Quest) / ChatGPT Integration Project</h2>
+                <p>An exploration of Oculus, Unity, and large language model technologies in one project. The character can engage in realistic two-way conversations with the player. The character's dialogue is generated through ChatGPT's API and preprogrammed with a customizable personality.</p>
+            </div>
+        </section>
+
+        <section class="artwork-section">
+            <h2>Artwork</h2>
+            <div class="gallery-grid">
+            <div class="artwork-item">
+                <img src="images/FullSizeRender.jpg" alt="Artwork 1" data-title="Untitled Artwork 1" data-description="Digital art">
+                <div class="caption">
+                    <p>Digital</p>
+                </div>
+            </div>
+            <div class="artwork-item">
+                <img src="images/FullSizeRender.png" alt="Artwork 2" data-title="Untitled Artwork 2" data-description="Digital art">
+                <div class="caption">
+                    <p>Oil</p>
+                </div>
+            </div>
+            <div class="artwork-item">
+                <img src="images/IMG_7458.jpg" alt="Artwork 3" data-title="Untitled Artwork 3" data-description="Photography">
+                <div class="caption">
+                    <p>Oil</p>
+                </div>
+            </div>
+            <div class="artwork-item">
+                <img src="images/IMG_8664.jpg" alt="Artwork 4" data-title="Untitled Artwork 4" data-description="Photography">
+                <div class="caption">
+                    <p>Oil</p>
+                </div>
+            </div>
+            <div class="artwork-item">
+                <img src="images/Untitled_Artwork 13.png" alt="Artwork 5" data-title="Untitled Artwork 5" data-description="Digital art">
+                <div class="caption">
+                    <p>Digital</p>
+                </div>
+            </div>
+            <div class="artwork-item">
+                <img src="images/Untitled_Artwork 14.png" alt="Artwork 6" data-title="Untitled Artwork 6" data-description="Digital art">
+                <div class="caption">
+                    <p>Digital</p>
+                </div>
+            </div>
+            <div class="artwork-item">
+                <img src="images/unknown 2.jpg" alt="Artwork 7" data-title="Untitled Artwork 7" data-description="Digital art">
+                <div class="caption">
+                    <p>Sculpture</p>
+                </div>
+            </div>
+            <div class="artwork-item">
+                <img src="images/unknown 2.png" alt="Artwork 8" data-title="Untitled Artwork 8" data-description="Digital art">
+                <div class="caption">
+                    <p>Sculpture</p>
+                </div>
+            </div>
+            <div class="artwork-item">
+                <img src="images/Untitled_Artwork 15.png" alt="Artwork 9" data-title="Untitled Artwork 9" data-description="Digital art">
+                <div class="caption">
+                    <p>Digital</p>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+            <span class="close">&times;</span>
+            <img id="lightbox-image" src="" alt="">
+            <div class="lightbox-info">
+                <h3 id="lightbox-title"></h3>
+                <p id="lightbox-description"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
