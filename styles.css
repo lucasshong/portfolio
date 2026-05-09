@@ -138,6 +138,12 @@ header h1 {
     object-fit: contain;
 }
 
+.small-artwork img {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .caption {
     text-align: left;
 }
