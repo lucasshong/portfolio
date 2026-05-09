@@ -25,6 +25,14 @@ header h1 {
     margin: 0;
 }
 
+header .education {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #666;
+    margin-top: 0.5rem;
+}
+
 .video-showcase {
     display: flex;
     gap: 3rem;
