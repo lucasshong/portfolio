@@ -6,21 +6,22 @@ document.addEventListener('DOMContentLoaded', function() {
     const lightboxDescription = document.getElementById('lightbox-description');
     const closeBtn = document.querySelector('.close');
 
-    artworkItems.forEach(item => {
-        item.addEventListener('click', function() {
-            const img = this.querySelector('img');
-            const title = img.getAttribute('data-title');
-            const description = img.getAttribute('data-description');
-            
-            lightboxImage.src = img.src;
-            lightboxImage.alt = img.alt;
-            lightboxTitle.textContent = title;
-            lightboxDescription.textContent = description;
-            
-            lightbox.style.display = 'flex';
-            document.body.style.overflow = 'hidden';
-        });
-    });
+    // Disabled click functionality
+    // artworkItems.forEach(item => {
+    //     item.addEventListener('click', function() {
+    //         const img = this.querySelector('img');
+    //         const title = img.getAttribute('data-title');
+    //         const description = img.getAttribute('data-description');
+    //
+    //         lightboxImage.src = img.src;
+    //         lightboxImage.alt = img.alt;
+    //         lightboxTitle.textContent = title;
+    //         lightboxDescription.textContent = description;
+    //
+    //         lightbox.style.display = 'flex';
+    //         document.body.style.overflow = 'hidden';
+    //     });
+    // });
 
     closeBtn.addEventListener('click', closeLightbox);
     

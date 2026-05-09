@@ -149,7 +149,6 @@ header .education {
 .artwork-item {
     display: flex;
     flex-direction: column;
-    cursor: pointer;
 }
 
 .artwork-item img {
